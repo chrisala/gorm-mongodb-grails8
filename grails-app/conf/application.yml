@@ -1,0 +1,25 @@
+info:
+  app:
+    name: '@info.app.name@'
+    version: '@info.app.version@'
+    grailsVersion: '@info.app.grailsVersion@'
+grails:
+  views:
+    gsp:
+      encoding: UTF-8
+      codecs:
+        scriptlet: html
+  mongodb:
+    url: mongodb://${MONGO_HOST:localhost}:${MONGO_PORT:27017}/prodDb
+  codegen:
+    defaultPackage: test
+  profile: web
+environments:
+  development:
+    grails:
+      mongodb:
+        url: mongodb://embedded/devDb
+  test:
+    grails:
+      mongodb:
+        url: mongodb://embedded/testDb

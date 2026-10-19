@@ -1,3 +1,5 @@
+This repository is a simple project created with Grails Forge attempting to reproduce issues encountered with storing GeoJSON as a Map using GORM for MongoDB in grails 8.
+
 ## Grails 8.0.0 Documentation
 
 - [User Guide](https://grails.apache.org/docs/8.0.0/guide/index.html)
